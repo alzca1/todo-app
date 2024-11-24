@@ -18,7 +18,16 @@ function App() {
     }));
   };
 
-  return <Todo toggleCompleted={handleCompleted} todoDetails={todo} />;
+  return (
+    <div className="App">
+      <section className="layout">
+        <div className="sidebar">sidebar</div>
+        <div className="body">
+          <Todo toggleCompleted={handleCompleted} todoDetails={todo} />
+        </div>
+      </section>
+    </div>
+  );
 }
 
 export default App;
