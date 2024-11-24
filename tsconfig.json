@@ -1,7 +1,26 @@
+// {
+//   "files": [],
+//   "references": [
+//     { "path": "./tsconfig.app.json" },
+//     { "path": "./tsconfig.node.json" }
+//   ]
+// }
+
 {
+  "compilerOptions": {
+    "target": "ES2020", // Especifica la versión de ECMAScript de salida.
+    "module": "ESNext", // Usa módulos de ECMAScript.
+    "lib": ["DOM", "DOM.Iterable", "ES2020"], // Define las APIs del navegador y JS que quieres soportar.
+    "jsx": "react-jsx", // Habilita JSX con el nuevo runtime de React.
+    "strict": true, // Habilita todas las comprobaciones estrictas.
+    "esModuleInterop": true, // Mejora la interoperabilidad con módulos CommonJS.
+    "moduleResolution": "node", // Resolución de módulos estilo Node.js.
+    "skipLibCheck": true, // Omite la verificación de tipos de las dependencias.
+    "forceConsistentCasingInFileNames": true // Fuerza un manejo consistente de mayúsculas/minúsculas.
+  },
   "files": [],
   "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
+    { "path": "./tsconfig.app.json" }, // Referencia para la app.
+    { "path": "./tsconfig.node.json" } // Referencia para Node.js.
   ]
 }
