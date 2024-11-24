@@ -1,0 +1,128 @@
+
+{
+  "todoLists": [
+    {
+      "id": 1,
+      "listName": "Housework",
+      "todos": [
+        {
+          "id": "1",
+          "title": "Clean the dishes",
+          "plannedStart": "2024-11-24T19:12:57.328831",
+          "plannedEnd": "2024-11-25T19:12:57.328831",
+          "isCompleted": false
+        },
+        {
+          "id": "2",
+          "title": "Do the laundry",
+          "plannedStart": "2024-11-26T19:12:57.328854",
+          "plannedEnd": "2024-11-29T19:12:57.328854",
+          "isCompleted": false
+        },
+        {
+          "id": "3",
+          "title": "Clean the bathroom",
+          "plannedStart": "2024-11-25T19:12:57.328861",
+          "plannedEnd": "2024-11-27T19:12:57.328861",
+          "isCompleted": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "listName": "Work",
+      "todos": [
+        {
+          "id": "4",
+          "title": "Prepare presentation for client",
+          "plannedStart": "2024-11-25T19:12:57.328869",
+          "plannedEnd": "2024-11-26T19:12:57.328869",
+          "isCompleted": false
+        },
+        {
+          "id": "5",
+          "title": "Update project documentation",
+          "plannedStart": "2024-11-24T19:12:57.328877",
+          "plannedEnd": "2024-11-26T19:12:57.328877",
+          "isCompleted": true
+        },
+        {
+          "id": "6",
+          "title": "Schedule team meeting",
+          "plannedStart": "2024-11-27T19:12:57.328883",
+          "plannedEnd": "2024-11-30T19:12:57.328883",
+          "isCompleted": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "listName": "USA Trip",
+      "todos": [
+        {
+          "id": "7",
+          "title": "Book flight tickets",
+          "plannedStart": "2024-11-19T19:12:57.328888",
+          "plannedEnd": "2024-11-19T19:12:57.328888",
+          "isCompleted": true
+        },
+        {
+          "id": "8",
+          "title": "Renew passport",
+          "plannedStart": "2024-11-14T19:12:57.328893",
+          "plannedEnd": "2024-11-06T19:12:57.328893",
+          "isCompleted": true
+        },
+        {
+          "id": "9",
+          "title": "Pack luggage",
+          "plannedStart": "2024-11-29T19:12:57.328900",
+          "plannedEnd": "2024-12-06T19:12:57.328900",
+          "isCompleted": false
+        },
+        {
+          "id": "10",
+          "title": "Research local attractions",
+          "plannedStart": "2024-11-27T19:12:57.328904",
+          "plannedEnd": "2024-12-02T19:12:57.328904",
+          "isCompleted": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "listName": "Bootcamp Study",
+      "todos": [
+        {
+          "id": "11",
+          "title": "Complete React module",
+          "plannedStart": "2024-11-23T19:12:57.328909",
+          "plannedEnd": "2024-11-24T19:12:57.328909",
+          "isCompleted": false
+        },
+        {
+          "id": "12",
+          "title": "Submit coding challenge",
+          "plannedStart": "2024-11-26T19:12:57.328915",
+          "plannedEnd": "2024-11-28T19:12:57.328915",
+          "isCompleted": false
+        },
+        {
+          "id": "13",
+          "title": "Review TypeScript concepts",
+          "plannedStart": "2024-11-24T19:12:57.328922",
+          "plannedEnd": "2024-11-26T19:12:57.328922",
+          "isCompleted": false
+        },
+        {
+          "id": "14",
+          "title": "Attend live Q&A session",
+          "plannedStart": "2024-11-28T19:12:57.328928",
+          "plannedEnd": "2024-12-02T19:12:57.328928",
+          "isCompleted": false
+        }
+      ]
+    }
+  ]
+}
+
